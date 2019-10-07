@@ -1,50 +1,124 @@
-/******************************************
-/* SETUP
-/*******************************************/
 
-/* Box Model */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
 
-/******************************************
-/* FONTS
-/*******************************************/
-
-/* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-
 body {
     color: #000;
-    font-size: 12px;
+    background-color: #f0efef;
+    font-size: 14px;
     line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
 }
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
 
 header {
-
+    background-image: url(../images/header_bg.jpg);
+    height: 400px;
+    padding: 5px;
+}
+h1{
+    font-weight: bolder;
+    font-size: 24px;
+    color: white;
+    margin-top: 3%;
+    margin-left: 5%;
 }
 
+h2{
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 10%;}
+
+.button{
+    text-align: center;
+    background-color: #f9e42e;
+    font-weight: bolder;
+    color: #606161;
+    font-size: 19px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width:250px;
+    height:40px;
+    padding: 0px;}
+
+#unique{
+    color: #033048;
+    font-weight: bold;
+    font-size: 20px;}
+
+h3{
+margin: 2% 5%;
+font-size: 20px;
+color: #606161;}
+
+
+ul{
+font-weight: lighter;
+margin: 3% 5%;
+font-size: 20px;
+color: #606161; 
+list-style: disc;}
+
+li{
+margin: 0 5%;}
+
+.quote{
+    background-image: url(../images/testimonial_bg.jpg);
+    height: 300px;
+    padding: 110px;}
+
+#quote{
+    font-weight: lighter;
+    font-style: italic;
+    color: #f0efef;
+    text-align: center;
+    font-size: 18px; }
+
+#quote1{
+        font-weight: bold;
+        color: #f0efef;
+        text-align: center;
+        font-size: 19px;}     
+
+.signup{
+    background-color: yellow;
+    height: 100px;
+    padding: 40px;}
+
+.button1{
+    text-align: center;
+    background-color: #021925;
+    font-weight: bolder;   
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 0 auto;
+    text-align: center;
+    width:250px;
+    height:40px;}
+       
 footer {
 
+background-color:  #606161;
+height: 200px;
+
+text-align: center;
+color: #f0efef;}
+
+
+h5{
+    font-weight: bolder;
+    font-size: 24px;
+    color: #f9e42e;
+    padding: 0 auto;
+    text-align: center;}
+
+
+img{
+
+ 
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-
-
-
