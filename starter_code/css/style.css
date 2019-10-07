@@ -26,6 +26,10 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
 }
 
 
@@ -34,17 +38,125 @@ body {
 /*******************************************/
 
 header {
-
+    height: 30%;
+    width: 100%;
+    background-image:url("../images/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-footer {
+.header{
+ height: 700px;
+ background-image: none;
+ text-align: center;
 
+
+ 
 }
 
+h1{
+    color: white;
+    padding: 60px;
+    width: 30px;
+    font-size: 24px;
+    font-weight:  bolder; 
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.border{
+    text-align: center;
+    display: inline-block;
+    background-color: #f9e42e;
+    color: black;
+    padding: 14px 5px;
+    margin: 10px auto;
+    font-weight:  bolder;     
 
+}
+.main{
+    color: black;
+    padding: 60px;
+    width: 30px;
+    font-size: 24px;
+    font-weight:  bolder; 
+}
+p{
+    font-weight: lighter;
+    font-size: 13px;
+    padding-left:100px; 
+}
 
+ul{
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    list-style: disc;
+}
+.testim{
+    background-image: url(../images/testimonial_bg.jpg);
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding: 30px 200px;
+    font-size: 18px;
+    font-style: italic;
+}
 
+.sineup{
+    background-color: #021925;
+    font-weight: bolder;
+    color: white;
+    border: 5px solid #021925;
+    font-size: 12px;
+    margin: 0 30% 0 30%;  
+    text-align: center;
+    display: block;
+    padding: 10px;
 
+}
+
+.sine{
+    background-color: yellow;
+    height: 100px;
+    display: block;
+    padding: 20px;
+    align-content: center;
+}
+
+footer {
+    background-color: black;
+    height: 300px;
+    text-align: center;
+}
+ h5{
+    font-weight: 900;
+    font-size: 30px;
+    color: yellow;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 15px;
+}
+.center{
+    align-content: center;
+}
+
+.copy{
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    
+}
+img{
+    padding-left:25px;
+    padding:30px;
+    /* margin: 40px; */
+    align-items: flex-end;
+}
