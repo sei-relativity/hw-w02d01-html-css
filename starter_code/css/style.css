@@ -22,10 +22,12 @@
 
 
 body {
-    color: #000;
+    background-color: #f0efef;
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    margin:0;
+    padding: 0;
 }
 
 
@@ -34,13 +36,109 @@ body {
 /*******************************************/
 
 header {
+    background-image: url(../images/header_bg.jpg);
+    height: 500px;
+    padding: 5px;
+     
+}
+h1{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+header h2{
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+.butto{
+    background-color: yellow;
+    font-weight: bolder;
+    color: black;
+    border: 5px solid yellow;
+    font-size: 25px;
+    margin: 3% 40% 0 40%;
+}
+.bo{
+    color: #033048;
 
 }
-
+h3{
+    font-weight: lighter;
+    margin: 2% 0 0 6%;
+    font-size: 20px;
+    color: #606161;
+}
+ul{
+    font-weight: lighter;
+    margin: 2% 0 5% 6%;
+    font-size: 20px;
+    color: #606161; 
+    list-style: disc;
+}
+li{
+    margin: 0 0 0 6%;
+}
 footer {
-
+    background-color: black;
+    height: 300px;
 }
-
+footer h5{
+    font-weight: 900;
+    font-size: 30px;
+    color: yellow;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 15px;
+}
+.center{
+    padding-left: 486px; 
+}
+img{
+    padding: 35px;
+}
+footer p{
+    font-size: 14px;
+    font-style: normal;
+    
+}
+.quote{
+    background-image: url(../images/testimonial_bg.jpg);
+    height: 250px;
+    padding: 50px 300px; 
+}
+p{
+    color: #f0efef;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 23px;
+    text-align: center;
+}
+h4{
+    font-weight: bolder;
+    color: #f0efef;
+    text-align: center;
+    font-size: 27px; 
+}
+.signup{
+    background-color: yellow;
+    height: 90px;
+    padding: 22px;
+}
+.butto2{
+    background-color: #021925;
+    font-weight: bolder;
+    color: white;
+    border: 5px solid #021925;
+    font-size: 25px;
+    margin: 0 40% 0 40%;  
+    text-align: center;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
