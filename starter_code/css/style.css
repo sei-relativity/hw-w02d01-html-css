@@ -84,6 +84,24 @@ h4{
     font-size: 27px; 
 }
 
+.paa{
+    width: 100%;
+    background-color: #f9e42e;
+    display: flex;
+    justify-content: center;
+}
+
+.paa button{
+    margin: 20px;
+    background-color: #033048;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px 35px;
+    font-weight: bolder;
+}
+
 .three{
     background-color: #021925;
     font-weight: bolder;
@@ -92,10 +110,13 @@ h4{
     font-size: 25px;
     margin: 0 40% 0 40%;  
     text-align: center;
+    
+    
 }
 
 .icon{
-    padding-left: 486px; 
+    padding-left: 580px; 
+    
 }
 
 footer {
