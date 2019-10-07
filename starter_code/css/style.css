@@ -32,19 +32,137 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-#header {
-
+header {
+    background-image: url(/images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #f0efef;
 }
 
-#footer {
+#benifits{
+    color:  #033048;
+    background-color: #f0efef;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 50px;
+}
+
+#testimonial{
+    background-image: url(/images/testimonial_bg.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#signUp{
+    background-color: #f9e42e;
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #121212;
+    padding: 30px;
 
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+#getNow{
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #f9e42e;
+    color: #033048;
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+#top{
+    padding:200px;
+    text-align: center;
+}
+
+#signUpLink{
+    margin:auto;
+    color: white;
+    background-color: #033048;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 5px;
+    border: 3px solid #033048;
+    display: block;
+    width: 200px;
+}
+
+#logo{
+    padding: 5%;
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+}
+
+li{
+    font-size: 13px;
+    font-weight: 300;
+    list-style: disc;
+    padding:5px;
+    margin-left: 50px
+}
+
+#headerMessage{
+    font-weight: 600;
+    font-size: 24px;
+}
 
 
 
+#bmessage{
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 300;
+}
 
+
+#testemony {
+    padding: 50px;
+    text-align: center;
+    color: #606161;
+    font-style: italic;
+    font-size: 18px;
+}
+#testemonyName{
+    font-weight: 600;
+    font-size:18px;
+}
+
+#socialMedia{
+    text-align: center;
+    padding: 30px;
+    
+}
+
+#footerName{
+    color: #f9e42e;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+    
+}
+
+a {
+    padding: 5px;
+    font-weight: 800;
+    font-size: 24px;
+    margin:10px
+}
+
+#copyRight{
+    font-weight: 600;
+    font-size: 9px;
+}
