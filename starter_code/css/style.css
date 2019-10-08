@@ -32,19 +32,84 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+main, header, section, aside, footer{
+    margin: 0;
+    padding: rem-cale(20);
+    border: 1px solid #000000;
+    columns: #000000;
+    
+    justify-content: flex-end;
+   
 
-header {
+    
 
 }
 
-footer {
+
+.header{
+    flex:1;
+    font-size: 22px;
+    font-weight: bold; 
+    background-image: url("/Users/mesfernasser/sei/homeworks/hw-w02d02-html-css/starter_code/images/header_bg.jpg");
 
 }
+.header button{
+    flex: 1;
+    color:#000000;
+    background: #ffff00;
+    
+}
+.hero{
+    flex: 1;
+    background: #e6e6e6;
+    font-size: 22px;
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+}
+.content{
+    flex: 1;
+    display: flex;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    background-image: url('/Users/mesfernasser/sei/homeworks/hw-w02d02-html-css/starter_code/images/testimonial_bg.jpg');
+}
+.sidebar{
+    flex: 1;
+    background: #ffff00;
+}
+.sidebar button{
+    background: #000d1a;
+    color: #e6e6e6;
+    text-align: center;
+    
+}
+.footer{
+    flex: 1;
+    background: #1a1300;
+    text-align: center;
+}
+.footer h1{
+    color:yellow;
+    font-weight: bold;
+    font-size: 50px;
+}
+.footer p{
+    color:white;
+    font-size: 20px;
+}
+
+.container{
+display: flex;
+align-items: stretch;
+flex-direction: column;
+flex-flow: column wrap;
 
 
-
+}
+@media screen and(min-width: 640px){
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
 
