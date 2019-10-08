@@ -1,6 +1,4 @@
-/******************************************
-/* SETUP
-/*******************************************/
+
 
 /* Box Model */
 * {
@@ -34,11 +32,105 @@ body {
 /*******************************************/
 
 header {
-
+    height: 600px;
+    background: url(../images/header_bg.jpg) no-repeat top center;
+    color: white;
+    
+}
+.head1 {
+    font-family: Arial, bold, sans-serif;
+    font-size: 24px;
+    align-items: flex-start;
+}
+.head2 {
+    font-family: Arial, bold, sans-serif;
+    font-size: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.head3 {
+    font-family: Arial, bold, sans-serif;
+    font-size: 14px;
+    background-color: #f9e42e;
+    color: #033048;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
-footer {
+.main {
+    height: 800px;
+    background: url(../images/testimonial_bg.jpg) no-repeat top center;
+    align-items: ;
+    align-content: space-around;
+}
+.main p{
+    font-family: Italic;
+    color: white;
+    font-size: 18px;
+}
+.main h2{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
 
+.benefit {
+    color: #000;
+}
+.benefit h2{
+    color: #033048;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.benefit p ul{
+    color:black;
+    font-size: 13px;
+}
+.perfect {
+    font-size: 13px;
+    color: ;
+    height:500px; 
+}
+.sign{
+    color: white;
+    background: yellow;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.sign h3{
+    background-color: #033048;
+}
+footer {
+background-color: #121212;
+font-family: Arial, Helvetica, sans-serif
+}
+footer h2{
+    color: yellow;
+    font-size: 24px;
+}
+footer p{
+    color: white;
+    font-size: 9px;
+}
+footer h3{
+    color: white;
+    font-size:  12px;
+}
+.content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
 /******************************************
