@@ -1,71 +1,114 @@
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
-
-/******************************************
-/* FONTS
-/*******************************************/
-
-/* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body, html{
-    height: 100%;
+    height: auto;
 }
-body {
-    color: #000;
+body { 
     font-size: 12px;
     line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
-    padding: 15px;
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-h1{
-    font-weight: 800;
+.content-Wrapper {
+    width: 1000px;
+    margin: 0 auto;
 }
 header {
     background-image: url(../images/header_bg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
 }
-.headerSection{
+.headerContent{
+    text-align: center;
 }
 header {
     color:white;
+    height: 500px;
+    padding: 50px;
 }
+
 h1{
-    font-weight: 800;
     font-size: 24px;
+    font-weight: 800;
+}
+header > h1{
+    position: static;
+    left: 400px;
+    padding-bottom: 50px;
+}
+.headerContent h2 {
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
 }
 .btn{
     font-weight: 800;
     font-size: 14px;
     border-radius: 5px;
+    padding: 15px;
 }
+.getBtn{
+    color:#033048;
+    background-color: #f9e42e;
+}
+
 .benefits{
     background-color: #f0efef;
+    font-size: 13px;
+    padding:50px;
+}
+.benefits h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+ul {
+    list-style-type: disc;
 }
 .feedBack{
     background-image: url(../images/testimonial_bg.jpg);
+    height: auto;
+    font-size: 18px;
+    color: white;
+    padding: 50px;
+    font-style: italic;
 }
-
+.feedBack > span {
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+}
+.signUpDiv{
+    padding: 50px;
+    background-color: #f9e42e;
+    text-align: center;
+}
+/* extra bold, 12px, 5px border radius */
+.singUpBtn {
+    color: white;
+    background-color: #033048;
+}
 footer {
-
+    padding: 15px;
+    background-color: #033048;
+    text-align: center;
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+footer h1 {
+    margin-block-start: 0;
+    color: #f9e42e;
+}
+footer p {
+    font-size: 9px; 
+    font-weight: 600;
+    padding: 15px;
+    color: white;
+}
+footer > div > img{
+    margin: 30px;
+}
