@@ -20,21 +20,46 @@
 /* BASE STYLES
 /*******************************************/
 
-
+body, html{
+    height: 100%;
+}
 body {
     color: #000;
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    padding: 15px;
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
+h1{
+    font-weight: 800;
+}
 header {
-
+    background-image: url(../images/header_bg.jpg);
+}
+.headerSection{
+}
+header {
+    color:white;
+}
+h1{
+    font-weight: 800;
+    font-size: 24px;
+}
+.btn{
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.benefits{
+    background-color: #f0efef;
+}
+.feedBack{
+    background-image: url(../images/testimonial_bg.jpg);
 }
 
 footer {
@@ -44,7 +69,3 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
