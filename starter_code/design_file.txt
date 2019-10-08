@@ -7,7 +7,8 @@ For today, we'll be making a simplified version of the site which uses only one 
 
 ---
 
-benefits background color: #f0efef
+benefits 
+background color: #f0efef
 yellow: #f9e42e
 dark blue: #033048
 light grey: #606161
