@@ -4,9 +4,12 @@
 
 /* Box Model */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+    -moz-box-sizing: border-box;
+    /* Firexfox */
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box;
+    /* IE */
 }
 
 /******************************************
@@ -20,6 +23,11 @@
 /* BASE STYLES
 /*******************************************/
 
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
 
 body {
     color: #000;
@@ -34,17 +42,162 @@ body {
 /*******************************************/
 
 header {
-
+    background-image: url(../images/header_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
-footer {
+footer {}
 
+header h1 {
+    font-weight: 800;
+    font-size: 24px;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+header p {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+header a {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+#benefits {}
+
+#benefits h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#benefits p,
+#benefits ul {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+#testimonial {
+    background-image: url(../images/testimonial_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#testimonial blockquote {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#testimonial figcaption {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#sign-up a {
+    font-weight: 800;
+    font-size: 12px;
+}
+
+footer p {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+footer small {
+    font-weight: 600;
+    font-size: 9px;
+    display: block;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.container {
+    height: 100%;
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
 
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* justify-items: center; */
+}
 
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* Can be override*/
+}
 
+.white-bg {
+    background-color: #f0efef
+}
+
+.yellow-bg {
+    background-color: #f9e42e;
+}
+
+.blue-bg {
+    background-color: #033048;
+}
+
+.grey-bg {
+    background-color: #606161;
+}
+
+.black-bg {
+    background-color: #121212;
+}
+
+.white-txt {
+    color: #f0efef
+}
+
+.yellow-txt {
+    color: #f9e42e;
+}
+
+.blue-txt {
+    color: #033048;
+}
+
+.grey-txt {
+    color: #606161;
+}
+
+.black-txt {
+    color: #121212;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+
+.pdng {
+    padding: 1rem;
+}
+
+.mrgn {
+    margin: 1rem;
+}
+
+.center-txt {
+    text-align: center;
+    margin: 0 auto;
+}
