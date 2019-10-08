@@ -1,0 +1,188 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* FONTS
+/*******************************************/
+
+/* font-family: "Open Sans", Arial, sans-serif */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  /* font-size: 12px; */
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  font-size: 42px;
+  color: whitesmoke;
+  margin: 20px;
+  font-weight: bold;
+  padding-left: 10%;
+}
+
+.button-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+
+
+
+.button {
+  display: flex;
+  height: 40px;
+  width: 150px;
+  background-color: #f7e22f;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  color: #2c4650;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.main {
+  background-image: url("../img/header_bg.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  /* -webkit-backgrou0nd-size: cover; */
+}
+
+.promo-sentence {
+  color: whitesmoke;
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.benifits {
+  background-color: #eaeeef;
+  width: 100%;
+  padding-left: 20px;
+  background-size: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+  margin-top: 0px;
+}
+
+.benifits-title {
+  margin-top: 40px;
+
+  color: #2a4558;
+  font-size: 20px;
+  font-weight: 600;
+}
+.bp {
+  color: #938e8c;
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+ul {
+  padding-left: 30px;
+  font-weight: 500;
+  padding-top: 10px;
+  color: #938e8c;
+  font-size: 13px;
+  list-style-type: disc;
+}
+
+.testo {
+  background-image: url("../img/testimonial_bg.jpg");
+  /* display: flex;
+  /* flex-direction: column;
+  justify-content: center; */ */
+}
+.para {
+  font-weight: 100;
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: white;
+}
+
+.name {
+  color: white;
+  padding-bottom: 100px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+.yellow {
+    /* background-color: #f7e22f; */
+    height: 100px;
+    display: flex;
+    background-color: #f7e22f;
+    justify-content: center;
+    align-items: center;
+}
+
+.gitbutton {
+    background-color: #2b4659;
+    font-weight: bold;
+   display: flex;
+  height: 40px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  border-radius: 5px;
+    
+}
+
+footer {
+    background-color: #3c3d3f;
+    height: 200px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+   
+}
+
+.relaxr {
+    color: #f7e22f;
+    font-size: 24px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+img {
+    max-height: 30px;
+    max-width: 100%;
+    margin: 10px;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
