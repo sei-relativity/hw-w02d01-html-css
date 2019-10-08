@@ -6,12 +6,7 @@
 /* Box Model */
 
 * {
-    -moz-box-sizing: border-box;
-    /* Firexfox */
-    -webkit-box-sizing: border-box;
-    /* Safari/Chrome/iOS/Android */
     box-sizing: border-box;
-    /* IE */
 }
 
 
@@ -28,7 +23,10 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
+body,
+html {
+    margin: 0;
+    height: 100%;
     color: #000;
     font-size: 12px;
     line-height: 1.4;
@@ -49,52 +47,71 @@ body {
     flex-wrap: wrap;
 }
 
-h1 {
-    font-size: 60px;
+.top {
+    background-image: url("/images/header_bg.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
 }
 
-p,
-ul {
+#h1Top {
+    padding: 3% 95% 0 5%;
+    color: white;
+}
+
+#pTop {
     text-align: center;
-    font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    padding: 20%;
+    font-size: 35px;
+    color: white;
 }
 
-.btn {
+#btnTop {
+    padding: 3%;
     background-color: #f9e42e;
-    padding: 15px;
-    width: 250px;
+    color: #033048;
+    font-size: 20px;
 }
 
 .benefits {
-    height: 600px;
     background-color: #f0efef;
+    height: 100%;
+    width: 100%;
 }
 
-.see {}
+.sea {
+    background-image: url("/images/testimonial_bg.jpg");
+    width: 800px;
+}
 
-#btn2 {
-    background-color: #033048;
+.sea p {
     color: white;
-    padding: 15px;
-    width: 250px;
+    text-align: center;
 }
 
 .yellowLine {
-    height: 100px;
     background-color: #f9e42e;
+    width: 800px;
+    height: 90px;
+}
+
+.yellowLine button {
+    background-color: #033048;
+    color: white;
+    padding: 15px 50px;
+    font-size: 15px;
 }
 
 .footer {
-    height: 350px;
-    background-color: #606161;
-}
-
-#listLogo {
-    list-style: none;
+    width: 800px;
+    height: 400px;
+    background-color: #121212;
+    color: white;
 }
 
 
 /******************************************
 /* ADDITIONAL STYLES
-/*******************************************/
+/*******************************************
