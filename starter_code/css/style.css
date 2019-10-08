@@ -1,6 +1,3 @@
-/******************************************
-/* SETUP
-/*******************************************/
 
 /* Box Model */
 * {
@@ -20,6 +17,10 @@
 /* BASE STYLES
 /*******************************************/
 
+#title{
+font-size:24px;
+font-weight: bold;
+}
 
 body {
     color: #000;
@@ -28,17 +29,129 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-header {
-
+.second{
+    background-color: #f0efef;
+    color: #606161;
+    font-family: 'open sans';
+    padding: 95px;
 }
 
-footer {
+.third{
+    background-image: url(/images/testimonial_bg.jpg);
+    padding: 60px;
 
+} 
+
+.fourth{
+    background-color: yellow;
+    padding: 30px;
+}
+h1{
+    color:white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+h2{
+    font-size:24px;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+}
+
+h5{
+    color:yellow;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+#p1{
+font-size: 17px;
+color: #606161;
+text-align: left;
+}
+
+
+ul{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.butt{
+    font-weight: bolder;
+    background-color: #f9e42e;
+    border: none;
+    color: #033048;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto; 
+    display: block;
+   
+}
+
+.butt2{
+    font-weight: bolder;
+    background-color:  #033048;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px, 5px;
+    margin: 0 auto; 
+    display: block;
+}
+
+header {
+    background-image: url(/images/header_bg.jpg);
+    padding: 200px;
+}
+
+p{
+    font-size: 9px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+#p2{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    }
+
+
+img{
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2;
+
+  
+}
+footer {
+    background-color: #606161;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 /******************************************
