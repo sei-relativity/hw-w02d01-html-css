@@ -29,6 +29,7 @@ body {
     text-align: center;
     margin: 0;
     height: 100%;
+    align-content: center;
 }
 
 
@@ -81,6 +82,63 @@ p {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+    font-weight: bolder;
+    font-size: 24px;
+}
 
+.firstP {
+    font-size: 24px;
+    font-weight: bold; 
+}
 
+button {
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 20%;
+    background-color: #f9e42e;
+    align-content: center;
+}
 
+.subject {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.subjectP {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+li {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.refrence {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.signUp {
+    font-weight: bolder;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.company {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.copyright {
+    font-size: 9px;
+    font-weight: bolder;
+}
