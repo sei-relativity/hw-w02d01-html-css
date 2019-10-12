@@ -1,0 +1,166 @@
+.allcontents {
+    max-width: 800px;
+    margin: 0 auto;
+}
+body {
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;}
+
+
+header {
+    background: url("images/coff.jpeg") no-repeat  top  center;
+    height: 400px;
+    text-align: center;
+    background-size: 100%;
+
+}
+header h1 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 34px;
+    padding: 20px 50px;
+    font-family: 'Open Sans';
+    color: whitesmoke;
+
+
+}
+
+header p {
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-family: 'Open Sans';
+}
+header a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 18px;
+    border: 5px solid #f9e42e;
+    border-radius: 5px;
+    background: #f9e42e;
+    padding: 7px 40px;
+    color:#324a59;
+    font-family: 'Open Sans';
+    transition: 0.7s;
+
+}
+header a:hover {
+    background-color: #8f8d8d;
+    border: 1px solid #324a59;
+    color: white;
+  }
+main {
+    background: #f0efef;
+    color: #606161;
+    height: 420px; 
+    padding:  50px 0 0 100px;
+    font-family: 'Open Sans';
+}
+main h2 {
+
+    color:#324a59;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Open Sans';
+}
+main p {
+    margin-top:50px;
+    display: block;
+    width: 420px;
+    font-weight: lighter;
+    font-size: 17px;
+    color: #8f8d8d;
+    font-family: 'Open Sans';
+}
+main ul {
+    width: 420px;
+    margin-top: 50px;
+    list-style-type: disc;
+    padding-left: 70px;
+
+}
+main li {
+    font-weight: lighter;
+    font-size: 17px;
+    font-family: 'Open Sans';
+    color: #8f8d8d;
+
+}
+.advise {
+    background: url("images/coff.jpeg") no-repeat  center;
+    height: 200px;
+    text-align: center;
+    font-family: 'Open Sans'; 
+    padding-top: 20px;   
+    background-size: 100% 100%;
+
+}
+.adv {
+    font-style: italic;
+    color: white;
+    display: inline-block;
+    width: 450px;
+    font-weight: normal;
+    font-size:20px;
+    font-family: 'Open Sans';
+
+}
+.name {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size:18px;
+    font-family: 'Open Sans';
+    color: white;
+
+}
+
+ .signup {
+    background-color:#f9e42e;
+    height: 70px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+footer {
+    text-align: center;
+    height: 200px;
+    background: #3c3d3e;
+    font-family: 'Open Sans';
+
+}
+footer h1 {
+    color:#f9e42e;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 900;
+
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 18px;
+    border: 1px solid #324a59;
+    background: #324a59;
+    padding: 7px 40px;
+    color:white;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+.button:hover {background-color:gray;}
+
+
+footer a img {
+    margin: 10px 10px;
+    border-radius: 80px;
+    height: 30px;
+}
+footer p {
+    margin-top:20px;
+    color:white;}
