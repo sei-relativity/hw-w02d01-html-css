@@ -29,8 +29,12 @@ body {
 }
 
 .hd {
-    background-image: url("header_bg.jpg");
+    background-image: url("../images/header_bg.jpg");
     margin: 5px;
+    flex-direction: row;
+justify-content: flex-start;
+align-items: stretch;
+height: 500px;
 }
 header {
    
@@ -52,7 +56,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-block-color: #f9e42e;
+    border: #f9e42e;
+    
 
 }
 
@@ -77,8 +82,9 @@ header {
 }
 
 .qoute {
-    font-weight: Light Italic;
+    font-weight: light italic;
     font-size: 18px;
+    font-style: italic;
 }
 #name {
     font-weight: 600;
@@ -87,7 +93,11 @@ header {
 
 .signup {
     border: 5px;
-    font-weight: bolder
+    font-weight: bolder;
+    background: #f9e42e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /******************************************
 /* LAYOUT
@@ -96,12 +106,28 @@ header {
 #relaxer {
     font-weight: bolder;
     font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9e42e
 }
 
 footer {
     font-size: 9px;
     font-weight: 600;
+    /* display: flex; */
+    justify-content: center;
+    align-items: baseline;
+    background: #121212;
+    box-sizing: content-box;
+    align-content: flex-end;
+    margin: 10px;
+    text-align: center;
+}
 
+#copyright {
+    color: #e7f5f5;
+    align-self: center;
 }
 
 /******************************************
