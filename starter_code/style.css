@@ -1,0 +1,160 @@
+body {
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 1200px;
+  width: 600px;
+  margin: auto;
+}
+
+
+.header {
+
+  background-image: url("header_bg.jpg");
+  background-size: 100% 100%;
+  min-width: 450px;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.firstPage{
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  margin: 10px 40px;
+}
+.header h2 {
+  color: white;
+  align-self: center;
+  font-size: 24px;
+  /* Extra bold */
+  font-weight: 900;  
+  font-family: "Open Sans", sans-serif;
+  
+}
+.header button {
+background-color: yellow;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  align-self: center;
+}
+.header h4 {
+  font-size: 10px;
+  font-weight: 800;
+  color: #055f8f;
+}
+main {
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+.bnft {
+  height: 50%;
+  padding: 30px 20px;
+  width: 70%;
+  padding-left: 40px;
+  min-height: 250px;
+}
+.bnft h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: darkblue;
+}
+.bnft p {
+  font-size: 13px;
+  font-weight: 300;
+  color: gray;
+  padding: 10px 5px;
+}
+ul {
+  font-size: 13px;
+  font-weight: 300;
+  padding-left: 30px;
+  list-style: disc;
+  color: gray;
+  margin: 5px 20px;
+}
+.test {
+  background-image: url("../images/testimonial_bg.jpg");
+  height: 40%;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.qoute {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 320px;
+  text-align: center;
+}
+.test p {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+}
+.test h2 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.signingUp {
+  background-color: yellow;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signingUp button {
+  background-color: darkblue;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+.signingUp h4 {
+  color: whitesmoke;
+  font-size: 12px;
+}
+
+.footer {
+
+  height: 20%;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: yellow;
+}
+.footer p {
+  font-size: 12px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+
+
