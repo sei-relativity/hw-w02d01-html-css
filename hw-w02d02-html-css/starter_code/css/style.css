@@ -1,0 +1,190 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* FONTS
+/*******************************************/
+
+/* font-family: "Open Sans", Arial, sans-serif */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+header {
+    display: inline-block;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+    background-image: url("../images/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.body {
+    font-weight: 200;
+    display: inline-block;
+    height: 270px;
+    width: 100%;
+    background-color: #f0efef;
+    color: #000;
+    font-size: 12px;
+    padding-left: 40px;
+    padding-right: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.testimonial {
+    height: 170px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 50px 500px;
+    font-weight: 300;
+    font: italic;
+    background-image: url("../images/testimonial_bg.jpg");
+    
+}
+.nav2 {
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+    background-color: #f9e42e;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+footer {
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.headerRelaxr{
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+} 
+.getPiece{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+#list {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.nav1 {
+    margin: 0 45% 0 45%;
+    background-color: #f9e42e;
+    text-align: center;
+    font-weight: 900;
+    font-size: 14px;
+    border: 5px;
+}
+.nav3 {
+    background-color: #033048;
+    margin: 0 40% 0 40%;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    margin: 0 45% 0 45%;
+    padding-bottom: 5px;
+
+}
+.footerRelaxr{
+    font-weight: 700;
+    color: #f9e42e;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+.getItNow{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+.copyRight {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    margin-right: 5px;
+    padding-right: 10px;
+    height: 1em;
+    width: 2em;
+}
+.img2{
+    margin-left: 5px;
+    padding-left: 10px;
+    height: 1em;
+    width: 1.25em;
+}
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+Weight: Light, Light Italic, Semibold, Extrabold
+
+"Relaxr" - Extra bold, 24px
+"Get piece of mind with a single tap" - Semibold, 24px
+"Get it Now" - Extra bold, 14px. 5px border radius
+"Benefits" - Semibold, 20px
+"The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
+• Schedule meetings for you
+• Excel automation to complete your work for you
+• Responds to emails on your behalf
+• Does all your work for you with our revolutionary AI technology" - Light, 13px
+
+"“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
+"- Amanda, Intuit " - semibold, 18px
+
+"Sign Up Now!" - extra bold, 12px, 5px border radius
+
+Relaxr - extra bold, 24px
+"Copyright 2015. Relaxr." - 9px, semibold
+
+
+
+
+
