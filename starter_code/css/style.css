@@ -166,7 +166,8 @@ li{
 }
 
 header {
-background: url(../images/header_bg.jpg) no-repeat;
+background: url(../images/header_bg.jpg) no-repeat; 
+background-size: cover;
 height: 400px;
 
 }
@@ -180,6 +181,7 @@ footer {
 
 #art{
     background: url(../images/testimonial_bg.jpg) no-repeat;
+    background-size: cover;
     color: #ffffff;
     text-align: center;
     height: 300px;
