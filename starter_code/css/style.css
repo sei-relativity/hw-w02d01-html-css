@@ -26,19 +26,164 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+ 
 }
 
+#benfits{
+   
+    font-size: 20px;
+    font-weight: 600;
+    padding-top:30px ;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+    /* yellow: #f9e42e;
+    dark blue: #033048;
+    light grey: #606161;
+    almost black: #121212; */
+}
+#main{
+    background-color: #f0efef;
+    height:300px;
+  
+}
+
+#relaxerFooter{
+    font:bolder;
+    font-size: 24px;
+    color: #f9e42e;
+    font-weight: 800;
+    padding-top: 20px;
+
+}
+
+#relaxerHeader{
+    font-size: 24px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-left: 70px;
+    padding-top:20px;
+    
+    
+    
+    
+}
+#now{
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #f9e42e;
+    width: 200px;
+    margin-left: 750px;
+    margin-top: 10px;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#piece{
+    font-display: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5%;
+
+    
+}
+
+#thePerfect {
+    font-size: 13px;
+    font-weight: 300;
+    padding-left:30px ;
+    padding-bottom: 20px;
+    
+
+}
+
+li{
+    font-size: 13px;
+    font-weight: 300;
+    padding-top:10px ;
+    padding-left:50px ;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+#relaxerChange{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    padding-top:50px ;
+    
+
+}
+
+#amanda{
+    font-size: 18px;
+    font-weight: 600;  
+    color: #ffffff;
+    padding-top:50px ;
+}
+
+#signUp{
+    border: 5px;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: #033048;
+    color: #ffffff;
+    width: 200px;
+    margin-left: 750px;
+    margin-top: 10px;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;    
+    
+  
+   
+}
+#singBackground{
+    background-color: #f9e42e;
+    height: 50px;
+
+
+}
+#copyright{
+    font-size: 9px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 80px;
+   
+}
+#twitter{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+#facebook{
+    padding-top: 20px;
+   padding-left: 10px;
+}
 
 header {
+background: url(../images/header_bg.jpg) no-repeat;
+height: 400px;
 
 }
 
 footer {
+    background-color: #606161;
+    text-align: center;
+    height: 300px;
+    margin: 0px;
+}
 
+#art{
+    background: url(../images/testimonial_bg.jpg) no-repeat;
+    color: #ffffff;
+    text-align: center;
+    height: 300px;
+ 
 }
 
 /******************************************
